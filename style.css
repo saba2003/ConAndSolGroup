@@ -65,11 +65,11 @@ header ul li a{
 
 .num
 {
-    color: #000;
+    color: #fff;
 }
 
 header.sticky .logo,
-header.sticky ul li a
+header.sticky ul li a, header.sticky .num
 {
     color: #000;
 }
@@ -517,10 +517,6 @@ p{
     header ul li a
     {
         color: #000;
-    }
-    .num
-    {
-        color: white;
     }
 
     .banner{ background-position: center; }
