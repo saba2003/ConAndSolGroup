@@ -15,7 +15,7 @@
         <header id="header">
             <a href="#" class="logo">CSG</a>
             <ul>
-                <li><a href="#home" onclick="toggle()">Home</a></li>
+                <!-- <li><a href="#home" onclick="toggle()">Home</a></li> -->
                 <li><a href="#about" onclick="toggle()">about</a></li>
                 <li><a href="#services" onclick="toggle()">services</a></li>
                 <li><a href="#request" onclick="toggle()">request service</a></li>
@@ -45,7 +45,7 @@
         <!-- About End -->
 
         <!-- request Start -->
-        <section class="sec" id="request">
+        <section class="sec request" id="request">
             <div class="content">
 
                 <div class="mxw800p">
@@ -54,8 +54,37 @@
                     <p style="color: red;"><b>Attention! Once the expert discusses the details, a price for the service will be determined, and the evaluation will start as soon as the money is deposited.</b> </p>
                 </div>
 
-                <a href="#" class="btn">Request a service</a>
+                <a href="#request" id="hireBtn" class="btn">Request a service</a>
             </div>
+
+            <!-- {{!-- Popout --}} -->
+            <div class="popup-outer">
+                <form class="popup-box" action="https://formsubmit.co/43029a8d9025d1dc6e7854b682547546" method="POST">
+                    <div class="dropdowns">
+                        <div class="dropdown">
+                            <div class="select">
+                                <input type="text" class="selected" name="Message" readonly placeholder="-">
+                                <!-- <span class = "selected">-</span> -->
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="menu">
+                                <li>none</li>
+                                <li>option 1</li>
+                                <li>option 2</li>
+                                <li>option 3</li>
+                                <li>option 4</li>
+                                <li>option 5</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="Send">
+                        <button type="reset" id="close" class="cancel">Close</button>
+                    </div>
+                </form>
+            </div>
+            <!-- {{!-- Popout End --}} -->
 
         </section>
         <!-- request End -->
@@ -72,7 +101,7 @@
 
                     <div class="box">
                         <div class="iconBx">
-                            <img src="images/icon1.png">
+                            <img src="images/1.png">
                         </div>
                         <div class="content">
                             <h2>real estate</h2>
@@ -86,7 +115,7 @@
 
                     <div class="box">
                         <div class="iconBx">
-                            <img src="images/icon2.png">
+                            <img src="images/2.png">
                         </div>
                         <div class="content">
                             <h2>Movable property</h2>
@@ -100,7 +129,7 @@
 
                     <div class="box">
                         <div class="iconBx">
-                            <img src="images/icon3.png">
+                            <img src="images/3.png">
                         </div>
                         <div class="content">
                             <h2>Business</h2>
@@ -139,46 +168,6 @@
         </section>
         <!-- Stats End -->
 
-        <!-- pricing Start -->
-        <!-- <section class="sec work">
-            <div class="content">
-
-                <div class="mxw800p">
-                    <h3>Recent Work</h3>
-                    <p>Lorem quas quae, sapiente repellat debitis voluptas repudiandae rem quod, eius sed optio numquam perspiciatis officiis velit voluptatum! At, adipisci distinctio.</p>
-                </div>
-
-                <div class="workBx">
-                    <div class="brand">
-                        <a href="#"><h2>Brand Name</h2></a>
-                    </div>
-                    <div class="brand">
-                        <a href="#"><h2>Brand Name</h2></a>
-                    </div>
-                    <div class="brand">
-                        <a href="#"><h2>Brand Name</h2></a>
-                    </div>
-                    <div class="brand">
-                        <a href="#"><h2>Brand Name</h2></a>
-                    </div>
-                    <div class="brand">
-                        <a href="#"><h2>Brand Name</h2></a>
-                    </div>
-                    <div class="brand">
-                        <a href="#"><h2>Brand Name</h2></a>
-                    </div>
-                    <div class="brand">
-                        <a href="#"><h2>Brand Name</h2></a>
-                    </div>
-                    <div class="brand">
-                        <a href="#"><h2>Brand Name</h2></a>
-                    </div>
-                </div>
-            
-            </div>
-        </section> -->
-        <!-- pricing End -->
-
         <!-- Contact Start -->
         <section class="sec contact" id="contact">
             <div class="content">
@@ -189,24 +178,27 @@
                 </div>
 
                 <div class="contactForm">
-                    <form>
-                        <div class="row100">
+                    <form action="https://formsubmit.co/43029a8d9025d1dc6e7854b682547546" method="POST">
+                        <div class="row100 info">
                             <div class="inputBx50">
-                                <input type="text" name="" placeholder="Full Name">
+                                <input type="text" name="Name" id="name" placeholder="Full Name">
                             </div>
                             <div class="inputBx50">
-                                <input type="text" name="" placeholder="Email Address">
+                                <input type="email" name="Email" id="email" placeholder="Email Address">
+                            </div>
+                            <div class="inputBx50">
+                                <input type="text" name="Phone" id="phone" placeholder="Phone number">
                             </div>
                         </div>
                         <div class="row100">
                             <div class="inputBx100">
-                                <textarea placeholder="Message"></textarea>    
+                                <textarea id="message" name="Message" placeholder="Message"></textarea>    
                             </div>
                         </div>
                         
                         <div class="row100">
                             <div class="inputBx100">
-                                <input type="submit" name="" value="Send">
+                                <input type="submit" value="Send">
                             </div>
                         </div>
                     </form>
@@ -229,6 +221,7 @@
 
         <!-- Contact End -->
 
+        <script src="script.js"></script>
 
         <script type="text/javascript">
             const num = document.querySelector(".num");
