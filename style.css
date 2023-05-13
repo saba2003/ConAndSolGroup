@@ -12,6 +12,19 @@ body{
     min-height: 1000px;
 }
 
+body::-webkit-scrollbar{
+    width: 0.5rem;
+    /* display: none; */
+}
+
+body::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #4978ff;
+}
+
 /* ============== Navbar Start ============== */
 header{
     position: fixed;
@@ -256,6 +269,7 @@ p{
 .dropdowns{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     height: 80%;
 }
 
@@ -274,7 +288,7 @@ p{
     border: none;
     font-weight: 600;
     font-size: medium;
-    width: 60%;
+    width: 80%;
 }
 
 .select {
@@ -354,6 +368,29 @@ p{
     opacity: 1;
 }
 /* Dropdowns end */
+
+
+.request .row100{
+    margin-bottom: 100px;
+}
+.request .row100 input,
+.request .row100 textarea
+{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+    width: 100%;
+}
+.request .row100 input[type="submit"]
+{
+    background: #000;
+    color: #fff;
+}
+.request .row100 input::placeholder,
+.request .row100 textarea::placeholder{
+    color: #000;
+}
 
 
 /* POPUP END */
@@ -573,28 +610,28 @@ p{
     width: 100%;
 }
 
-.contactForm .row100{
+.row100{
     display: flex;
     width: 100%;
 }
 
-.contactForm .info{
+.info{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.contactForm .row100 .inputBx50{
+.row100 .inputBx50{
     margin: 0 20px;
 }
 
-.contactForm .row100 .inputBx100{
+.row100 .inputBx100{
     margin: 0 20px;
     width: 100%;
 }
 
-.contactForm .row100 input,
-.contactForm .row100 textarea
+.row100 input,
+.row100 textarea
 {
     position: relative;
     border: none;
@@ -610,17 +647,17 @@ p{
     resize: none;
 }
 
-.contactForm .row100 textarea
+.row100 textarea
 {
     height: 100px;
 }
 
-.contactForm .row100 input::placeholder,
-.contactForm .row100 textarea::placeholder{
+.row100 input::placeholder,
+.row100 textarea::placeholder{
     color: rgba(255, 255, 255, 0.5);
 }
 
-.contactForm .row100 input[type="submit"]
+.row100 input[type="submit"]
 {
     background: #fff;
     color: #000;

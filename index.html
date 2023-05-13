@@ -17,8 +17,8 @@
             <ul>
                 <!-- <li><a href="#home" onclick="toggle()">Home</a></li> -->
                 <li><a href="#about" onclick="toggle()">about</a></li>
-                <li><a href="#services" onclick="toggle()">services</a></li>
                 <li><a href="#request" onclick="toggle()">request service</a></li>
+                <li><a href="#services" onclick="toggle()">services</a></li>
                 <li><a href="#contact" onclick="toggle()">contact</a></li>
                 <li class="num">Num: <span>+995 557 57 00 57</span></li>
             </ul>
@@ -51,7 +51,7 @@
                 <div class="mxw800p">
                     <h3><b>If you are interested, you can order an assessment of both immovable and movable property.</b></h3>
                     <p>Following receipt of your order, an expert will contact you at the email address or phone number you provided to discuss the details.</p>
-                    <p style="color: red;"><b>Attention! Once the expert discusses the details, a price for the service will be determined, and the evaluation will start as soon as the money is deposited.</b> </p>
+                    <p style="color: red;"><b>Once the expert discusses the details, a price for the service will be determined, and the valuation process will start as soon as the money is deposited.</b> </p>
                 </div>
 
                 <a href="#request" id="hireBtn" class="btn">Request a service</a>
@@ -63,18 +63,38 @@
                     <div class="dropdowns">
                         <div class="dropdown">
                             <div class="select">
-                                <input type="text" class="selected" name="Message" readonly placeholder="-">
+                                <input type="text" class="selected" id="first" name="ტიპი" readonly placeholder="-" onchange="swapOptions()">
                                 <!-- <span class = "selected">-</span> -->
                                 <div class="caret"></div>
                             </div>
-                            <ul class="menu">
-                                <li>none</li>
-                                <li>option 1</li>
-                                <li>option 2</li>
-                                <li>option 3</li>
-                                <li>option 4</li>
-                                <li>option 5</li>
+                            <ul class="menu" id="firstMenu">
+                                <li>Real estate</li>
+                                <li>Movable property</li>
+                                <li>Business</li>
+                                <li>Valuation of other types of property</li>
                             </ul>
+                        </div>
+                        <div class="dropdown" id="second">
+                            <div class="select">
+                                <input type="text" class="selected" name="კონკრეტული" readonly placeholder="-">
+                                <!-- <span class = "selected">-</span> -->
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="menu" id="last">
+                                <li>-</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row100 info">
+                        <div class="inputBx50">
+                            <input type="text" name="სახელი" id="name" placeholder="Full Name">
+                        </div>
+                        <div class="inputBx50">
+                            <input type="email" name="მეილი" id="email" placeholder="Email Address">
+                        </div>
+                        <div class="inputBx50">
+                            <input type="text" name="მობილური" id="phone" placeholder="Phone number">
                         </div>
                     </div>
 
@@ -181,13 +201,13 @@
                     <form action="https://formsubmit.co/43029a8d9025d1dc6e7854b682547546" method="POST">
                         <div class="row100 info">
                             <div class="inputBx50">
-                                <input type="text" name="Name" id="name" placeholder="Full Name">
+                                <input type="text" name="სახელი" id="name" placeholder="Full Name">
                             </div>
                             <div class="inputBx50">
-                                <input type="email" name="Email" id="email" placeholder="Email Address">
+                                <input type="email" name="მეილი" id="email" placeholder="Email Address">
                             </div>
                             <div class="inputBx50">
-                                <input type="text" name="Phone" id="phone" placeholder="Phone number">
+                                <input type="text" name="მობილური" id="phone" placeholder="Phone number">
                             </div>
                         </div>
                         <div class="row100">
@@ -222,19 +242,6 @@
         <!-- Contact End -->
 
         <script src="script.js"></script>
-
-        <script type="text/javascript">
-            const num = document.querySelector(".num");
-            window.addEventListener("scroll", function(){
-                var header = document.querySelector("header");
-                header.classList.toggle("sticky", window.scrollY > 0);
-                num.classList.toggle("sticky")
-            })
-            function toggle(){
-                var header = document.querySelector("header");
-                header.classList.toggle("active")
-            }
-        </script>
 
     </body>
 </html>
