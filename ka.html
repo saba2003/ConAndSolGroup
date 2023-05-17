@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>CSG</title>
+    </head>
+
+    <body>
+        <!-- Header Start -->
+        <header id="header">
+            <a href="#" class="logo">CSG</a>
+            <ul>
+                <!-- <li><a href="#home" onclick="toggle()">Home</a></li> -->
+                <li><a href="#about" onclick="toggle()">ჩვენს შესახებ</a></li>
+                <li><a href="#request" onclick="toggle()">შეფასების შეკვეთა</a></li>
+                <li><a href="#services" onclick="toggle()">სერვისები</a></li>
+                <li><a href="#contact" onclick="toggle()">კონტაქტი</a></li>
+                <li class="num">მობ: <span>+995 557 57 00 57</span></li>
+                <li class="lang">
+                    <div class="dropdown">
+                        <div class="select">
+                            <span class = "selected">ქარ</span>
+                            <div class="caret"></div>
+                        </div>
+                        <ul class="menu">
+                            <li><a href="/en.html">ENG</a></li>
+                            <li><a href="/ru.html">РУС</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="toggle" onclick="toggle()"></div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Banner Start -->
+        <section class="banner" id="home">
+            <h2>Consulting and Solutions Group LLC <span>(CSG)</span></h2>
+        </section>
+        <!-- Header End -->
+
+        <!-- About Start -->
+        <section class="sec" id="about">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>ვინ ვართ <span>ჩვენ</span></h3>
+                    <p><span><b>Consulting and Solutions Group LLC (CSG)</b></span> არის საშემფასებლო კომპანია, რომელიც თავის კლიენტებს აწვდის სრულ და ეფექტურ შეფასების სერვისებს ქართული ბიზნესგარემოს გათვალისწინებით
+                        CSG გთავაზობთ უძრავ-მოძრავი ქონებისა და ბიზნესის (კომპანიის წილის) შეფასებას საერთაშორისო სტანდარტების მიხედვით. აღნიშნულ მომსახურებას გაგიწევთ სერტიფიცირებულ პროფესიონალთა გუნდი, რომელთაც მრავალწლიანი გამოცდილება აქვთ ამ სფეროში</p>
+                </div>
+            </div>
+        </section>
+        <!-- About End -->
+
+        <!-- request Start -->
+        <section class="sec request" id="request">
+            <div class="content">
+
+                <div class="mxw800p">
+                    <h3><b>დაინტერესების შემთხვევაში შეგიძლიათ შეუკვეთოთ შეფასება როგორც უძრავ, ისე მოძრავ ქონებაზე</b></h3>
+                    <p>თქვენი შეკვეთის მიღების შემდეგ, ექსპერტი დაგიკავშირდებათ თქვენ მიერ მითითებულ ელ. ფოსტის მისამართზე ან ტელეფონის ნომერზე დეტალების განსახილველად</p>
+                    <p style="color: red;"><b>როგორც კი ექსპერტი დეტალებს განიხილავს, მომსახურების ფასი დადგინდება და შეფასება თანხის ჩარიცხვისთანავე დაიწყება</b> </p>
+                </div>
+
+                <a href="#request" id="hireBtn" class="btn">შეფასების შეკვეთა</a>
+            </div>
+
+            <!-- {{!-- Popout --}} -->
+            <div class="popup-outer">
+                <form class="popup-box" action="https://formsubmit.co/43029a8d9025d1dc6e7854b682547546" method="POST">
+                    <div class="dropdowns">
+                        <div class="dropdown">
+                            <div class="select">
+                                <input type="text" class="selected" id="first" name="ტიპი" readonly placeholder="-" onchange="swapOptions()">
+                                <!-- <span class = "selected">-</span> -->
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="menu" id="firstMenu">
+                                <li>უძრავი ქონება</li>
+                                <li>მოძრავი ქონება</li>
+                                <li>ბიზნესი</li>
+                                <li>სხვა ტიპის ქონება</li>
+                            </ul>
+                        </div>
+                        <div class="dropdown" id="second">
+                            <div class="select">
+                                <input type="text" class="selected" name="კონკრეტული" readonly placeholder="-">
+                                <!-- <span class = "selected">-</span> -->
+                                <div class="caret"></div>
+                            </div>
+                            <ul class="menu" id="last">
+                                <li>-</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row100 info">
+                        <div class="inputBx50">
+                            <input type="text" name="სახელი" id="name" placeholder="სახელი და გვარი">
+                        </div>
+                        <div class="inputBx50">
+                            <input type="email" name="მეილი" id="email" placeholder="მეილის მისამართი">
+                        </div>
+                        <div class="inputBx50">
+                            <input type="text" name="მობილური" id="phone" placeholder="მობილური ნომერი">
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="გაგზავნა">
+                        <button type="reset" id="close" class="cancel">დახურვა</button>
+                    </div>
+                </form>
+            </div>
+            <!-- {{!-- Popout End --}} -->
+
+        </section>
+        <!-- request End -->
+
+        <!-- Services Start -->
+        <section class="sec" id="services">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>მომსახურების შინაარსი</h3>
+                    <p>მომსახურება მოიცავს უძრავ-მოძრავი ქონებისა და ბიზნესის შეფასებას, მათ შორის:</p>
+                </div>
+
+                <div class="services">
+
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="images/1.png">
+                        </div>
+                        <div class="content">
+                            <h2>უძრავი ქონება</h2>
+                            <p>კომერციული ფართი</p>
+                            <p>შენობა-ნაგებობა</p>
+                            <p>საცხოვრებელი ბინა</p>
+                            <p>კერძო სახლი</p>
+                            <p>მიწის ნაკვეთი (არსებული გაუმჯობესებით ან მის გარეშე)</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="images/2.png">
+                        </div>
+                        <div class="content">
+                            <h2>მოძრავი ქონება</h2>
+                            <p>მსუბუქი ავტომობილი</p>
+                            <p>ტრაილერი</p>
+                            <p>სამშენებლო ტექნიკა</p>
+                            <p>მანქანა-დანადგარები</p>
+                            <p>საოფისე ტექნიკა და ინვენტარი</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="iconBx">
+                            <img src="images/3.png">
+                        </div>
+                        <div class="content">
+                            <h2>ბიზნესი</h2>
+                            <p>კომპანიის მთლიანი აქტივები</p>
+                            <p>კომპანიის 100% წილის</p>
+                            <p>კომპანიის ნაწილის შეფასება</p>
+                            <p>გუდვილის შეფასება</p>
+                            <p>სავაჭრო მარკის შეფასება</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- Services End -->
+
+        <!-- Stats Start -->
+        <section class="sec stats">
+            <div class="content">
+                <div class="mxw800p">
+                    <h3>ჩვენი მიღწევები</h3>
+                    <p>ჩვენი გამოცდილი პროფესიონალების გუნდი იძლევა აღსანიშნავ შედეგებს მრავალფეროვანი პროექტების ფართო სპექტრით</p>
+                </div>
+                <div class="statsBox">
+                    <div class="box">
+                        <h2>2500++</h2>
+                        <h4>პროექტი</h4>
+                    </div>
+                    <div class="box">
+                        <h2>1200++</h2>
+                        <h4>კმაყოფილი კლიენტი</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Stats End -->
+
+        <!-- Contact Start -->
+        <section class="sec contact" id="contact">
+            <div class="content">
+
+                <div class="mxw800p">
+                    <h3>დაგვიკავშირდით</h3>
+                    <p>შეკითხვის ქონის შემთხვევაში შეგიძლიათ დაგვიკავშირდეთ</p>
+                </div>
+
+                <div class="contactForm">
+                    <form action="https://formsubmit.co/43029a8d9025d1dc6e7854b682547546" method="POST">
+                        <div class="row100 info">
+                            <div class="inputBx50">
+                                <input type="text" name="სახელი" id="name" placeholder="სახელი გვარი">
+                            </div>
+                            <div class="inputBx50">
+                                <input type="email" name="მეილი" id="email" placeholder="მეილის მისამართი">
+                            </div>
+                            <div class="inputBx50">
+                                <input type="text" name="მობილური" id="phone" placeholder="მობილური ნომერი">
+                            </div>
+                        </div>
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <textarea id="message" name="Message" placeholder="რა გაინტერესებთ?"></textarea>    
+                            </div>
+                        </div>
+                        
+                        <div class="row100">
+                            <div class="inputBx100">
+                                <input type="submit" value="გაგზავნა">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="sci">
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100090534260399"><img src="images/facebook.png"></a></li>
+                    </ul>
+                </div>
+
+                <p class="copyright">მობილური ნომერი: +995 577 57 00 57</p>
+                <p class="copyright">მეილი: consulting.valuation@gmail.com</p>
+
+                <p class="copyright">Designed & Developed By <a href="https://github.com/saba2003">Saba Maghlakelidze</a></p>
+
+
+            </div>
+        </section>
+
+        <!-- Contact End -->
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

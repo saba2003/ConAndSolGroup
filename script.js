@@ -106,38 +106,102 @@ for (const child of firstDropdownMenu.children) {
   child.addEventListener('click', swapOptions);
 }
 
-const real_estate_options = [
+const real_estate_options_en = [
     'Apartment',
     'Land',
     'Commercial Space',
     'House',
     'Other real estate',
   ],
-  movable_property_options = [
+  movable_property_options_en = [
     'Car',
     'Special Technology',
     'Inventory',
     'Furniture',
     'Other movable property',
   ],
-  business_options = ['Share of the company', 'Total company share', 'other'];
+  business_options_en = ['Share of the company', 'Total company share', 'other'];
+
+const real_estate_options_ru = [
+    'Квартира',
+    'Земля',
+    'Коммерческое помещение',
+    'House',
+    'Другая недвижимость',
+  ],
+  movable_property_options_ru = [
+    'Машина',
+    'Специальная технология',
+    'Инвентарь',
+    'Мебель',
+    'Другое движимое имущество',
+  ],
+  business_options_ru = ['Доля компании', 'Общая доля компании', 'другой'];
+
+const real_estate_options_ka = [
+    'ბინა',
+    'მიწა',
+    'კომერციული ფართი',
+    'სახლი',
+    'სხვა უძრავი ქონება',
+  ],
+  movable_property_options_ka = [
+    'მანქანა',
+    'სპეციალური ტექნოლოგია',
+    'ინვენტარი',
+    'ავეჯი',
+    'სხვა მოძრავი ქონება',
+  ],
+  business_options_ka = ['კომპანიის წილი', 'კომპანიის მთლიანი წილი', 'სხვა'];
 
 function swapOptions() {
   second_dropdown_menu.innerHTML = ``;
   secondDropdown.querySelector('.selected').value = '-';
   switch (firstDropdownValue.value) {
     case 'Real estate':
-      real_estate_options.forEach((option) => {
+      real_estate_options_en.forEach((option) => {
         second_dropdown_menu.innerHTML += `<li>${option}</li>`;
       });
       break;
     case 'Movable property':
-      movable_property_options.forEach((option) => {
+      movable_property_options_en.forEach((option) => {
         second_dropdown_menu.innerHTML += `<li>${option}</li>`;
       });
       break;
     case 'Business':
-      business_options.forEach((option) => {
+      business_options_en.forEach((option) => {
+        second_dropdown_menu.innerHTML += `<li>${option}</li>`;
+      });
+      break;
+
+    case 'Недвижимость':
+      real_estate_options_ru.forEach((option) => {
+        second_dropdown_menu.innerHTML += `<li>${option}</li>`;
+      });
+      break;
+    case 'Движимое имущество':
+      movable_property_options_ru.forEach((option) => {
+        second_dropdown_menu.innerHTML += `<li>${option}</li>`;
+      });
+      break;
+    case 'Бизнес':
+      business_options_ru.forEach((option) => {
+        second_dropdown_menu.innerHTML += `<li>${option}</li>`;
+      });
+      break;
+
+    case 'უძრავი ქონება':
+      real_estate_options_ka.forEach((option) => {
+        second_dropdown_menu.innerHTML += `<li>${option}</li>`;
+      });
+      break;
+    case 'მოძრავი ქონება':
+      movable_property_options_ka.forEach((option) => {
+        second_dropdown_menu.innerHTML += `<li>${option}</li>`;
+      });
+      break;
+    case 'ბიზნესი':
+      business_options_ka.forEach((option) => {
         second_dropdown_menu.innerHTML += `<li>${option}</li>`;
       });
       break;
