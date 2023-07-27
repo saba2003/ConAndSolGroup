@@ -1,0 +1,129 @@
+{
+    "ka": {
+        "header": {
+            "nav_req": "შეფასების შეკვეთა",
+            "nav_serv": "სერვისები",
+            "nav_cont": "კონტაქტი",
+            "nav_num": "მობ: <span>+995 557 57 00 57</span>",
+            "selected_lang": "ქარ"
+        },
+        "services": {
+            "serv_title": "მომსახურების შინაარსი",
+            "serv_p": "<b><span>CSG</span>_ის მომსახურება მოიცავს უძრავ_მოძრავი ქონებისა და ბიზნესის შეფასებას, მათ შორის:</b>",
+            "content_1": "<h2>უძრავი ქონება</h2> <p>კომერციული ფართი</p> <p>შენობა_ნაგებობა</p> <p>საცხოვრებელი ბინა</p> <p>კერძო სახლი</p> <p>მიწის ნაკვეთი</p>",
+            "content_2": "<h2>მოძრავი ქონება</h2> <p>მსუბუქი ავტომობილი</p> <p>ტრაილერი</p> <p>სამშენებლო ტექნიკა</p> <p>მანქანა_დანადგარები</p> <p>საოფისე ტექნიკა და ინვენტარი</p>",
+            "content_3": "<h2>ბიზნესი</h2> <p>კომპანიის მთლიანი აქტივები</p> <p>კომპანიის მთლიანი წილის ან ნაწილის შეფასება</p> <p>გუდვილის შეფასება</p> <p>სავაჭრო მარკის შეფასება</p>"
+        },
+        "about": {
+            "mxw800p": "<h3>ვინ ვართ <span>ჩვენ</span></h3> <p><span><b>Consulting and Solutions Group LLC (CSG)</b></span> არის საშემფასებლო კომპანია, რომელიც თავის კლიენტებს აწვდის სრულ და ეფექტურ შეფასების სერვისებს ქართული ბიზნესგარემოს გათვალისწინებით CSG გთავაზობთ უძრავ_მოძრავი ქონებისა და ბიზნესის (კომპანიის წილის) შეფასებას საერთაშორისო სტანდარტების მიხედვით. აღნიშნულ მომსახურებას გაგიწევთ სერტიფიცირებულ პროფესიონალთა გუნდი, რომელთაც მრავალწლიანი გამოცდილება აქვთ ამ სფეროში</p>",
+            "box1": "<h2>2500++</h2> <h4>პროექტი</h4>",
+            "box2": "<h2>1200++</h2> <h4>კმაყოფილი კლიენტი</h4>"
+        },
+        "request": {
+            "mxw800p": "<h3><b>დაინტერესების შემთხვევაში შეგიძლიათ შეუკვეთოთ შეფასება როგორც უძრავ, ისე მოძრავ ქონებაზე</b></h3> <p>თქვენი შეკვეთის მიღების შემდეგ, ექსპერტი დაგიკავშირდებათ თქვენ მიერ მითითებულ ელ. ფოსტის მისამართზე ან ტელეფონის ნომერზე დეტალების განსახილველად</p> <p><b>როგორც კი ექსპერტი დეტალებს განიხილავს, მომსახურების ფასი დადგინდება და შეფასება თანხის ჩარიცხვისთანავე დაიწყება</b> </p>",
+            "hireBtn": "შეფასების შეკვეთა",
+            "firstMenu": "<li>უძრავი ქონება</li> <li>მოძრავი ქონება</li> <li>ბიზნესი</li> <li>სხვა ტიპის ქონება</li>",
+            "row100": {
+                "name": "სახელი და გვარი",
+                "email": "მეილის მისამართი",
+                "phone": "მობილური ნომერი"
+            },
+            "close": "დახურვა"
+        },
+        "contact": {
+            "contact_title": "<h3>დაგვიკავშირდით</h3> <p>შეკითხვის ქონის შემთხვევაში შეგიძლიათ დაგვიკავშირდეთ</p>",
+            "contact_form": {
+                "name": "სახელი და გვარი",
+                "email": "მეილის მისამართი",
+                "phone": "მობილური ნომერი",
+                "message": "რა გაინტერესებთ?"
+            },
+            "submit": "გაგზავნა"
+        }
+    },
+    "en": {
+        "header": {
+            "nav_req": "request service",
+            "nav_serv": "services",
+            "nav_cont": "contact",
+            "nav_num": "Num: <span>+995 557 57 00 57</span>",
+            "selected_lang": "ENG"
+        },
+        "services": {
+            "serv_title": "Content of the service",
+            "serv_p": "<b>The service includes real estate and business valuation, including:</b>",
+            "content_1": "<h2>real estate</h2> <p>Commercial Space</p> <p>Building_structure</p> <p>Apartment</p> <p>Private house</p> <p>Land</p>",
+            "content_2": "<h2>Movable property</h2> <p>passenger car</p> <p>truck</p> <p>Construction Equipment</p> <p>Machinery</p> <p>office equipment and inventory</p>",
+            "content_3": "<h2>Business</h2> <p>Valuation of the company's total assets</p> <p>Valuation of a share of the company</p> <p>Valuation of goodwill</p> <p>Trademark valuation</p>"
+        },
+        "about": {
+            "mxw800p": "<h3>Who We Are</h3> <p><span><b>Consulting and Solutions Group LLC (CSG)</b></span> is an appraisal company that provides its clients with complete and effective appraisal services considering the Georgian business environment. CSG offers real estate and business (company share) valuation according to international standards. This service will be provided by a team of certified professionals who have many years of experience in this field.</p>",
+            "box1": "<h2>2500++</h2> <h4>Projects</h4>",
+            "box2": "<h2>1200++</h2> <h4>Happy clients</h4>"
+        },
+        "request": {
+            "mxw800p": "<h3><b>If you are interested, you can order an assessment of both immovable and movable property.</b></h3> <p><b>Following receipt of your order, an expert will contact you at the email address or phone number you provided to discuss the details.</p> <p><b>Once the expert discusses the details, a price for the service will be determined, and the valuation process will start as soon as the money is deposited.</b> </p>",
+            "hireBtn": "Request valuation",
+            "firstMenu": "<li>Real estate</li> <li>Movable property</li> <li>Business</li> <li>Valuation of other types of property</li>",
+            "row100": {
+                "name": "Full Name",
+                "email": "Email Address",
+                "phone": "Phone number"
+            },
+            "close": "Close"
+        },
+        "contact": {
+            "contact_title": "<h3>Send us a message</h3> <p>Feel free to contact us if you have any questions</p>",
+            "contact_form": {
+                "name": "Full Name",
+                "email": "Email Address",
+                "phone": "Phone number",
+                "message": "Message"
+            },
+            "submit": "Send"
+        }
+    },
+
+    "ru": {
+        "header": {
+            "nav_req": "запросить услугу",
+            "nav_serv": "услуги",
+            "nav_cont": "контакт",
+            "nav_num": "номер: <span>+995 557 57 00 57</span>",
+            "selected_lang": "РУС"
+        },
+        "services": {
+            "serv_title": "Содержание услуги",
+            "serv_p": "Услуга включает в себя оценку недвижимости и бизнеса, в том числе:",
+            "content_1": "<h2>недвижимость</h2> <p>Коммерческое помещение</p> <p>Здание_конструкция</p> <p>Квартира</p> <p>Частный дом</p> <p>Земля</p>",
+            "content_2": "<h2>Движимое имущество</h2> <p>легковой автомобиль</p> <p>грузовик</p> <p>Строительное оборудование</p> <p>Машины</p> <p>оргтехника и инвентарь</p>",
+            "content_3": "<h2>Бизнес</h2> <p>общие активы компании</p> <p>100% акций компании</p> <p>часть компании</p> <p>Оценка деловой репутации</p> <p>Оценка торговой марки</p>"
+        },
+        "about": {
+            "mxw800p": "<p><span><b>Consulting and Solutions Group LLC (CSG)</b></span>является оценочной компанией, которая предоставляет своим клиентам комплексные и эффективные оценочные услуги c учетом бизнес_среды Грузии CSG предлагает оценку недвижимости и бизнеса (долей компании) по международным стандартам. Данную услугу будет оказывать команда сертифицированных специалистов, имеющих многолетний опыт работы в данной сфере</p>",
+            "box1": "<h2>2500++</h2> <h4>Проекты</h4>",
+            "box2": "<h2>1200++</h2> <h4>Счастливые клиенты</h4>"
+        },
+        "request": {
+            "mxw800p": "<h3><b>დაინტერესების შემთხვევაში შეგიძლიათ შეუკვეთოთ შეფასება როგორც უძრავ, ისე მოძრავ ქონებაზე</b></h3> <p>თქვენი შეკვეთის მიღების შემდეგ, ექსპერტი დაგიკავშირდებათ თქვენ მიერ მითითებულ ელ. ფოსტის მისამართზე ან ტელეფონის ნომერზე დეტალების განსახილველად</p> <p><b>როგორც კი ექსპერტი დეტალებს განიხილავს, მომსახურების ფასი დადგინდება და შეფასება თანხის ჩარიცხვისთანავე დაიწყება</b> </p>",
+            "hireBtn": "შეფასების შეკვეთა",
+            "firstMenu": "<li>უძრავი ქონება</li> <li>მოძრავი ქონება</li> <li>ბიზნესი</li> <li>სხვა ტიპის ქონება</li>",
+            "row100": {
+                "name": "სახელი და გვარი",
+                "email": "მეილის მისამართი",
+                "phone": "მობილური ნომერი"
+            },
+            "close": "დახურვა"
+        },
+        "contact": {
+            "contact_title": "<h3>Отправьте нам сообщение</h3> <p>Не стесняйтесь обращаться к нам, если y вас есть какие_либо вопросы</p>",
+            "contact_form": {
+                "name": "Полное имя",
+                "email": "Адрес электронной почты",
+                "phone": "Номер телефона",
+                "message": "Сообщение"
+            },
+            "submit": "Отправлять"
+        }
+    }
+}

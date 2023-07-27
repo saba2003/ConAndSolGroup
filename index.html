@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="html" lang="ka">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <meta name="description" content="CSG გთავაზობთ უძრავ-მოძრავი ქონებისა და ბიზნესის (კომპანიის წილის) შეფასებას საერთაშორისო სტანდარტების მიხედვით. აღნიშნულ მომსახურებას გაგიწევთ სერტიფიცირებულ პროფესიონალთა გუნდი, რომელთაც მრავალწლიანი გამოცდილება აქვთ ამ სფეროში">
+
+        <meta name="keywords" content="უძრავი ქონების შეფასება,
+            მოძრავი ქონების შეფასება,
+            ბიზნესის შეფასება,
+            ბინის ყიდვა,
+            ბინის გაყიდვა,
+            შეფასება,
+            ქონების შემფასებელი,
+            კომერციული,
+            ბინა,
+            სახლის,
+            უძრავი,
+            შემფასებელი,
+            ღირებულება,
+            ფასი,
+            სერტიფიცირებული,
+            რა ღირს ქონების შეფასება,
+            შეფასების დასკვნა,
+            დასკვნა,
+            უძრავი ქონების სააგენტო,
+            სააგენტო,
+            uzravi qonebis shefaseba,
+            shemfasebeli,
+            udzravi,
+            qonebis shepaseba,
+            binis shefaseba,
+            bina,
+            saxlis shepaseba,
+            bina shepaseba,
+            appraise,
+            evaluation,
+            assesment,
+            valuation,
+            property,
+            оценку,
+            оценочной,
+            оценка,
+            оценка имущества
+        ">
+
         <link rel="stylesheet" href="style.css">
 
-        <title>CSG - ქონების და ბიზნესის შეფასება</title>
+        <title>ქონების, ბიზნესის შეფასება. უძრავი ქონების შეფასების სააგენტო</title>
     </head>
 
     <body>
@@ -16,20 +57,20 @@
             <a href="#" class="logo">CSG</a>
             <ul>
                 <!-- <li><a href="#home" onclick="toggle()">Home</a></li> -->
-                <li><a href="#about" onclick="toggle()">ჩვენს შესახებ</a></li>
-                <li><a href="#request" onclick="toggle()">შეფასების შეკვეთა</a></li>
-                <li><a href="#services" onclick="toggle()">სერვისები</a></li>
-                <li><a href="#contact" onclick="toggle()">კონტაქტი</a></li>
-                <li class="num">მობ: <span>+995 557 57 00 57</span></li>
+                <li><a href="#services" id="nav-serv" onclick="toggle()">სერვისები</a></li>
+                <li><a href="#request" id="nav-req" onclick="toggle()">შეფასების შეკვეთა</a></li>
+                <li><a href="#contact" id="nav-cont" onclick="toggle()">კონტაქტი</a></li>
+                <li class="num" id="nav-num">მობ: <span>+995 557 57 00 57</span></li>
                 <li class="lang">
                     <div class="dropdown">
                         <div class="select">
-                            <span class = "selected">ქარ</span>
+                            <span class="selected" id="selected-lang">ქარ</span>
                             <div class="caret"></div>
                         </div>
                         <ul class="menu">
-                            <li><a href="/en.html">ENG</a></li>
-                            <li><a href="/ru.html">РУС</a></li>
+                            <li><a href="#" onclick="changeLanguage('ka')">KA</a></li>
+                            <li><a href="#" onclick="changeLanguage('en')">ENG</a></li>
+                            <li><a href="#" onclick="changeLanguage('ru')">РУС</a></li>
                         </ul>
                     </div>
                 </li>
@@ -42,8 +83,8 @@
         <section class="sec" id="services">
             <div class="content">
                 <div class="mxw800p">
-                    <h3>მომსახურების შინაარსი</h3>
-                    <p><b><span>CSG</span>-ის მომსახურება მოიცავს უძრავ-მოძრავი ქონებისა და ბიზნესის შეფასებას, მათ შორის:</b></p>
+                    <h3 id="serv-title">მომსახურების შინაარსი</h3>
+                    <p id="serv-p"><b><span>CSG</span>-ის მომსახურება მოიცავს უძრავ-მოძრავი ქონებისა და ბიზნესის შეფასებას, მათ შორის:</b></p>
                 </div>
 
                 <div class="services">
@@ -52,7 +93,7 @@
                         <div class="iconBx">
                             <img src="images/1.png">
                         </div>
-                        <div class="content">
+                        <div class="content" id="content-1">
                             <h2>უძრავი ქონება</h2>
                             <p>კომერციული ფართი</p>
                             <p>შენობა-ნაგებობა</p>
@@ -66,7 +107,7 @@
                         <div class="iconBx">
                             <img src="images/2.png">
                         </div>
-                        <div class="content">
+                        <div class="content" id="content-2">
                             <h2>მოძრავი ქონება</h2>
                             <p>მსუბუქი ავტომობილი</p>
                             <p>ტრაილერი</p>
@@ -80,7 +121,7 @@
                         <div class="iconBx">
                             <img src="images/3.png">
                         </div>
-                        <div class="content">
+                        <div class="content" id="content-3">
                             <h2>ბიზნესი</h2>
                             <p>კომპანიის მთლიანი აქტივები</p>
                             <p>კომპანიის მთლიანი წილის ან ნაწილის შეფასება</p>
@@ -104,17 +145,17 @@
         <!-- About Start -->
         <section class="sec" id="about">
             <div class="content">
-                <div class="mxw800p">
+                <div class="mxw800p" id="mxw800px">
                     <h3>ვინ ვართ <span>ჩვენ</span></h3>
                     <p><span><b>Consulting and Solutions Group LLC (CSG)</b></span> არის საშემფასებლო კომპანია, რომელიც თავის კლიენტებს აწვდის სრულ და ეფექტურ შეფასების სერვისებს ქართული ბიზნესგარემოს გათვალისწინებით
                         CSG გთავაზობთ უძრავ-მოძრავი ქონებისა და ბიზნესის (კომპანიის წილის) შეფასებას საერთაშორისო სტანდარტების მიხედვით. აღნიშნულ მომსახურებას გაგიწევთ სერტიფიცირებულ პროფესიონალთა გუნდი, რომელთაც მრავალწლიანი გამოცდილება აქვთ ამ სფეროში</p>
                 </div>
                 <div class="statsBox">
-                    <div class="box">
+                    <div class="box" id="box1">
                         <h2>2500++</h2>
                         <h4>პროექტი</h4>
                     </div>
-                    <div class="box">
+                    <div class="box" id="box2">
                         <h2>1200++</h2>
                         <h4>კმაყოფილი კლიენტი</h4>
                     </div>
@@ -127,10 +168,10 @@
         <section class="sec request" id="request">
             <div class="content">
 
-                <div class="mxw800p">
+                <div class="mxw800p" id="mxw800p">
                     <h3><b>დაინტერესების შემთხვევაში შეგიძლიათ შეუკვეთოთ შეფასება როგორც უძრავ, ისე მოძრავ ქონებაზე</b></h3>
                     <p>თქვენი შეკვეთის მიღების შემდეგ, ექსპერტი დაგიკავშირდებათ თქვენ მიერ მითითებულ ელ. ფოსტის მისამართზე ან ტელეფონის ნომერზე დეტალების განსახილველად</p>
-                    <p style="color: red;"><b>როგორც კი ექსპერტი დეტალებს განიხილავს, მომსახურების ფასი დადგინდება და შეფასება თანხის ჩარიცხვისთანავე დაიწყება</b> </p>
+                    <p><b>როგორც კი ექსპერტი დეტალებს განიხილავს, მომსახურების ფასი დადგინდება და შეფასება თანხის ჩარიცხვისთანავე დაიწყება</b> </p>
                 </div>
 
                 <a href="#request" id="hireBtn" class="btn">შეფასების შეკვეთა</a>
@@ -202,7 +243,7 @@
         <section class="sec contact" id="contact">
             <div class="content">
 
-                <div class="mxw800p">
+                <div class="mxw800p" id="contact">
                     <h3>დაგვიკავშირდით</h3>
                     <p>შეკითხვის ქონის შემთხვევაში შეგიძლიათ დაგვიკავშირდეთ</p>
                 </div>
@@ -228,7 +269,7 @@
                         
                         <div class="row100">
                             <div class="inputBx100">
-                                <input type="submit" value="გაგზავნა">
+                                <input type="submit" id="submit" value="გაგზავნა">
                             </div>
                         </div>
                     </form>
@@ -252,6 +293,6 @@
         <!-- Contact End -->
 
         <script src="script.js"></script>
-
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     </body>
 </html>
