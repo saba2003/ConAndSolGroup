@@ -38,7 +38,7 @@ header{
     transition: 0.6s;
 }
 
-header.sticky
+header
 {
     padding: 5px 100px;
     background: #fff;
@@ -81,18 +81,11 @@ header ul li a{
     color: #fff;
 }
 
-header.sticky .logo,
-header.sticky ul li a, 
-header.sticky .num
+header .logo,
+header ul li a, 
+header .num
 {
     color: #000;
-}
-
-header.sticky .caret
-{
-    border-left: 5px solid white;
-    border-right: 5px solid white;
-    border-top: 6px solid black;
 }
 
 .lang
@@ -141,9 +134,9 @@ header.sticky .caret
 .caret {
     width: 0;
     height: 0;
-    border-left: 5px solid black;
-    border-right: 5px solid black;
-    border-top: 6px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-top: 6px solid black;
     background: #fff;
     transition: 0.3s;
 }
@@ -193,7 +186,7 @@ header.sticky .caret
 
 
 /* ============== Banner Start ============== */
-.banner{
+/* .banner{
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -217,7 +210,7 @@ header.sticky .caret
 }
 span{
     color: #4978ff;
-}
+} */
 
 /* ============== Banner End ============== */
 
@@ -267,6 +260,39 @@ p{
 
 .sec span{
     color: #000;
+}
+
+.stats{
+    background: #000;
+    padding-top: 250px;
+    margin-top: -250px;
+}
+
+.stats h3, 
+.stats p{
+    color: #000;
+}
+
+.statsBox{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.statsBox h2{
+    color: #000;
+    font-size: 36px;
+}
+
+.statsBox h4{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 
@@ -519,6 +545,10 @@ p{
 
 /* ============== Services Start ============== */
 
+#services span{
+    color: #4978ff;
+}
+
 .services{
     position: relative;
     display: flex;
@@ -533,10 +563,16 @@ p{
 .services .box{
     min-width: 300px;
     max-width: 300px;
+    min-height: 370px;
     margin: 20px auto;
     background: #fff;
     padding: 20px;
-    box-shadow: 0 15px 30px rgba(0,0,0, 0.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.services .box:hover{
+    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.1);
 }
 
 .services .box .iconBx{
@@ -565,38 +601,7 @@ p{
 
 /* ============== Stats Start ============== */
 
-.stats{
-    background: #000;
-    padding-top: 250px;
-    margin-top: -250px;
-}
 
-.stats h3, 
-.stats p{
-    color: #fff;
-}
-
-.statsBox{
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-    max-width: 100%;
-    margin-top: 40px;
-}
-
-.statsBox h2{
-    color: #fff;
-    font-size: 36px;
-}
-
-.statsBox h4{
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
 
 /* ============== Stats End ============== */
 

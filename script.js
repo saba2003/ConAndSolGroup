@@ -1,13 +1,13 @@
-const num = document.querySelector('.num');
-window.addEventListener('scroll', function () {
-  var header = document.querySelector('header');
-  header.classList.toggle('sticky', window.scrollY > 0);
-  num.classList.toggle('sticky');
-});
-function toggle() {
-  var header = document.querySelector('header');
-  header.classList.toggle('active');
-}
+// const num = document.querySelector('.num');
+// window.addEventListener('scroll', function () {
+//   var header = document.querySelector('header');
+//   header.classList.toggle('sticky', window.scrollY > 0);
+//   num.classList.toggle('sticky');
+// });
+// function toggle() {
+//   var header = document.querySelector('header');
+//   header.classList.toggle('active');
+// }
 
 const section = document.querySelector('.request'),
   hireBtn = section.querySelector('#hireBtn'),
