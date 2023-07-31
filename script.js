@@ -1,9 +1,9 @@
-// const num = document.querySelector('.num');
-// window.addEventListener('scroll', function () {
-//   var header = document.querySelector('header');
-//   header.classList.toggle('sticky', window.scrollY > 0);
-//   num.classList.toggle('sticky');
-// });
+const num = document.querySelector('.num');
+window.addEventListener('scroll', function () {
+  var header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 0);
+  num.classList.toggle('sticky');
+});
 function toggle() {
   var header = document.querySelector('header');
   header.classList.toggle('active');
@@ -243,7 +243,9 @@ function updateContent(translations) {
   $('#nav-serv').text(translations.header.nav_serv);
   $('#nav-cont').text(translations.header.nav_cont);
   $('#nav-num').html(translations.header.nav_num);
-  $('#selected-lang').text(translations.header.selected_lang);
+  $('#selected-lang').html(
+    '<img src="' + translations.header.selected_lang + '">'
+  );
 
   // services
   $('#serv-title').text(translations.services.serv_title);
@@ -289,17 +291,17 @@ function updateContent(translations) {
 
   // contact-form
   $('#contact_name').replaceWith(
-    '<input type=text name=სახელი id=name placeholder=' +
+    '<input type=text name=სახელი id=contact_name placeholder=' +
       translations.contact.contact_form.name +
       '>'
   );
   $('#contact_email').replaceWith(
-    '<input type=email name=მეილი id=email placeholder=' +
+    '<input type=email name=მეილი id=contact_email placeholder=' +
       translations.contact.contact_form.email +
       '>'
   );
   $('#contact_phone').replaceWith(
-    '<input type=text name=მობილური id=phone placeholder=' +
+    '<input type=text name=მობილური id=contact_phone placeholder=' +
       translations.contact.contact_form.phone +
       '>'
   );

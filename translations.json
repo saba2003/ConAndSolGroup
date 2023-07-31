@@ -5,11 +5,10 @@
             "nav_serv": "სერვისები",
             "nav_cont": "კონტაქტი",
             "nav_num": "მობ: <span>+995 557 57 00 57</span>",
-            "selected_lang": "ქარ"
+            "selected_lang": "images/KA.png"
         },
         "services": {
-            "serv_title": "მომსახურების შინაარსი",
-            "serv_p": "<b><span>CSG</span>-ის მომსახურება მოიცავს უძრავ-მოძრავი ქონებისა და ბიზნესის შეფასებას, მათ შორის:</b>",
+            "serv_title": "შეგიფასებთ ნებისმიერ ქონებას და ბიზნესს",
             "content_1": "<h2>უძრავი ქონება</h2> <p>კომერციული ფართი</p> <p>შენობა-ნაგებობა</p> <p>საცხოვრებელი ბინა</p> <p>კერძო სახლი</p> <p>მიწის ნაკვეთი</p>",
             "content_2": "<h2>მოძრავი ქონება</h2> <p>მსუბუქი ავტომობილი</p> <p>ტრაილერი</p> <p>სამშენებლო ტექნიკა</p> <p>მანქანა-დანადგარები</p> <p>საოფისე ტექნიკა და ინვენტარი</p>",
             "content_3": "<h2>ბიზნესი</h2> <p>კომპანიის მთლიანი აქტივები</p> <p>კომპანიის მთლიანი წილის ან ნაწილის შეფასება</p> <p>გუდვილის შეფასება</p> <p>სავაჭრო მარკის შეფასება</p>"
@@ -48,11 +47,10 @@
             "nav_serv": "services",
             "nav_cont": "contact",
             "nav_num": "Num: <span>+995 557 57 00 57</span>",
-            "selected_lang": "ENG"
+            "selected_lang": "images/UK.png"
         },
         "services": {
             "serv_title": "Content of the service",
-            "serv_p": "<b>The service includes real estate and business valuation, including:</b>",
             "content_1": "<h2>real estate</h2> <p>Commercial Space</p> <p>Building-structure</p> <p>Apartment</p> <p>Private house</p> <p>Land</p>",
             "content_2": "<h2>Movable property</h2> <p>passenger car</p> <p>truck</p> <p>Construction Equipment</p> <p>Machinery</p> <p>office equipment and inventory</p>",
             "content_3": "<h2>Business</h2> <p>Valuation of the company's total assets</p> <p>Valuation of a share of the company</p> <p>Valuation of goodwill</p> <p>Trademark valuation</p>"
@@ -91,11 +89,10 @@
             "nav_serv": "услуги",
             "nav_cont": "контакт",
             "nav_num": "номер: <span>+995 557 57 00 57</span>",
-            "selected_lang": "РУС"
+            "selected_lang": "images/RU.jpg"
         },
         "services": {
             "serv_title": "Содержание услуги",
-            "serv_p": "Услуга включает в себя оценку недвижимости и бизнеса, в том числе:",
             "content_1": "<h2>недвижимость</h2> <p>Коммерческое помещение</p> <p>Здание-конструкция</p> <p>Квартира</p> <p>Частный дом</p> <p>Земля</p>",
             "content_2": "<h2>Движимое имущество</h2> <p>легковой автомобиль</p> <p>грузовик</p> <p>Строительное оборудование</p> <p>Машины</p> <p>оргтехника и инвентарь</p>",
             "content_3": "<h2>Бизнес</h2> <p>общие активы компании</p> <p>100% акций компании</p> <p>часть компании</p> <p>Оценка деловой репутации</p> <p>Оценка торговой марки</p>"
