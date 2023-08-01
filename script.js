@@ -282,7 +282,9 @@ function updateContent(translations) {
   );
 
   $('#send').replaceWith(
-    '<input type=submit id=send value=' + translations.request.send + '>'
+    '<input type=submit id=send class=cancel value=' +
+      translations.request.send +
+      '>'
   );
   $('#close').text(translations.request.close);
 

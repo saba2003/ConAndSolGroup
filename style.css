@@ -21,6 +21,10 @@ body::-webkit-scrollbar-track {
     background: #fff;
 }
 
+body{
+    background: #fff;
+}
+
 body::-webkit-scrollbar-thumb {
     background: #4978ff;
 }
@@ -84,7 +88,6 @@ header ul li a{
     margin: 0 15px;
     text-decoration: none;
     color: #fff;
-    letter-spacing: 2px;
     font-weight: 300;
     transition: 0.6s;
 }
@@ -101,9 +104,6 @@ header .num
     color: #000;
 }
 
-.lang{
-    width: 50px;
-}
 
 .lang
 .dropdown{
@@ -275,7 +275,6 @@ header .num
 
 .services .box:hover{
     box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.2);
-    transform: translateY(-20px);
 }
 
 .services .box .iconBx{
@@ -375,7 +374,6 @@ p{
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 20px;
-    letter-spacing: 1px;
 }
 
 .btn{
@@ -423,7 +421,6 @@ p{
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 
@@ -469,16 +466,15 @@ p{
 .request .popup-box{
     position: relative;
     padding: 30px;
-    width: 80%;
-    /* width: 760px; */
-    height: 760px;
+    width: 55%;
     background: #fff;
     border: 1px solid #000;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 } 
+
 
 
 .request .popup-box .close{
@@ -512,38 +508,29 @@ p{
     margin-top: auto;
     margin-left: auto;
 }
-.request .popup-box .button button{
-    outline: none;
-    border: none;
-    padding: 6px 12px;
-    background: #6f93f6;
-    margin-left: 8px;
-    color: #fff;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
 
-.request .popup-box .button input{
+
+.request .cancel{
     outline: none;
     border: none;
     padding: 6px 12px;
     background: #6f93f6;
-    margin-right: 30px;
+    margin-left: 15px;
     color: #fff;
     font-size: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-radius: 5px;
 }
 
 .request .button button.cancel{
     background: #1e1e24;
 }
 .request .button button.cancel:hover{
-    background: #1e1e24;
+    background: #1e1e248c;
 }
-.request .button button.send:hover{
-    background: #1e1e24;
+.request #send:hover{
+    background: #396eff;
 }
 
 
@@ -667,7 +654,7 @@ p{
 
 
 .request .row100{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .request .row100 input,
 .request .row100 textarea
@@ -766,9 +753,10 @@ p{
 /* ============== Contact Start ============== */
 
 .contact{
-    background: linear-gradient(to top, var(--gray2), var(--gray0));
-
+    background: var(--gray0);
     position: relative;
+    padding-bottom: 0px;
+    min-height: 50vw;
 }
 
 .contact::before{
@@ -849,13 +837,11 @@ p{
     border-bottom: 2px solid var(--orange);
 }
 
-.row100 input[type="submit"]
+.contact .row100 input[type="submit"]
 {
-    background: var(--gray2);
+    background: #fff;
     color: #000;
-    max-width: 100px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    max-width: 110px;
     cursor: pointer;
     font-weight: 500;
     border-radius: 10px;
@@ -863,10 +849,9 @@ p{
     transition: .5s;
 }
 
-.row100 input[type="submit"]:hover
+.contact .row100 input[type="submit"]:hover
 {
-    background: var(--gray0);
-    color: #000;
+    background: #396eff;
 }
 
 .sci{
@@ -983,6 +968,7 @@ p{
     .lang .menu-open {
         height: 10.5em;
         font-size: medium;
+        
     }
     .lang
     .caret {
@@ -1002,6 +988,8 @@ p{
         border-radius: 0.5em;
         cursor: pointer;
         color: black;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
     header .logo,
@@ -1036,6 +1024,14 @@ p{
 
     .request .content{
         width: 100%;
+    }
+
+    .request.show .popup-outer{
+        transform: translateY(-70px);
+    }
+
+    .request .popup-box{
+        width: 80%;
     }
 
     .contact::before{
