@@ -1017,11 +1017,32 @@ p{
     }
 
     #serv-title{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .services .box{
-        width: 100%;
+        min-width: 100px;
+        min-height: 100px;
+        width: 150px;
+        height: 200px;
+        padding: 12px;
+    }
+
+    .services .box .iconBx {
+        margin-top: 5px;
+    }
+
+    .services .box .iconBx img {
+        max-width: 30px;
+        margin-bottom: 5px;
+    }
+
+    .services .box h2{
+        font-size: 13px;
+    }
+
+    .services p {
+        font-size: 11px;
     }
 
     .stats{
@@ -1063,6 +1084,27 @@ p{
     
     h3{
         font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .about_section h3{
+        font-size: 22px;
+    }
+
+    .about_section p{
+        font-size: 14px;
+    }
+
+    .statsBox h2 {
+        font-size: 26px;
+    }
+
+    .request h3{
+        font-size: 22px;
+    }
+
+    .request p{
+        font-size: 16px;
     }
 
     .request .img-box{
