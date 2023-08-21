@@ -14,12 +14,13 @@
             "content_3": "<h2>ბიზნესი</h2> <p>კომპანიის მთლიანი აქტივები</p> <p>კომპანიის მთლიანი წილის ან ნაწილის შეფასება</p> <p>გუდვილის შეფასება</p> <p>სავაჭრო მარკის შეფასება</p>"
         },
         "about": {
-            "mxw800p": "<h3>ვინ ვართ <span>ჩვენ</span></h3> <p><span><b>Consulting and Solutions Group LLC (CSG)</b></span> არის საშემფასებლო კომპანია, რომელიც თავის კლიენტებს აწვდის სრულ და ეფექტურ შეფასების სერვისებს ქართული ბიზნესგარემოს გათვალისწინებით CSG გთავაზობთ უძრავ-მოძრავი ქონებისა და ბიზნესის (კომპანიის წილის) შეფასებას საერთაშორისო სტანდარტების მიხედვით. აღნიშნულ მომსახურებას გაგიწევთ სერტიფიცირებულ პროფესიონალთა გუნდი, რომელთაც მრავალწლიანი გამოცდილება აქვთ ამ სფეროში</p>",
+            "strings": ["გაიგეთ მეტი ჩვენზე", "მაღალ-კვალიფიციური პერსონალი", "საერთაშორისო დონის ხარისხი", "განუწყვეტლივი კავშირი კლიენტებთან"],
+            "mxw800px": "<h3><span class='auto-input'></span></h3> <p><span><b>Consulting and Solutions Group LLC (CSG)</b></span> არის საშემფასებლო კომპანია, რომელიც თავის კლიენტებს აწვდის სრულ და ეფექტურ შეფასების სერვისებს ქართული ბიზნესგარემოს გათვალისწინებით CSG გთავაზობთ უძრავ-მოძრავი ქონებისა და ბიზნესის (კომპანიის წილის) შეფასებას საერთაშორისო სტანდარტების მიხედვით. აღნიშნულ მომსახურებას გაგიწევთ სერტიფიცირებულ პროფესიონალთა გუნდი, რომელთაც მრავალწლიანი გამოცდილება აქვთ ამ სფეროში</p>",
             "box1": "<h2>2500++</h2> <h4>პროექტი</h4>",
             "box2": "<h2>1200++</h2> <h4>კმაყოფილი კლიენტი</h4>"
         },
         "request": {
-            "mxw800p": "<h3><b>დაინტერესების შემთხვევაში შეგიძლიათ შეუკვეთოთ შეფასება როგორც უძრავ, ისე მოძრავ ქონებაზე</b></h3> <p>თქვენი შეკვეთის მიღების შემდეგ, ექსპერტი დაგიკავშირდებათ თქვენ მიერ მითითებულ ელ. ფოსტის მისამართზე ან ტელეფონის ნომერზე დეტალების განსახილველად</p> <p><b>როგორც კი ექსპერტი დეტალებს განიხილავს, მომსახურების ფასი დადგინდება და შეფასება თანხის ჩარიცხვისთანავე დაიწყება</b> </p>",
+            "mxw800px": "<h3><b>დაინტერესების შემთხვევაში შეგიძლიათ შეუკვეთოთ შეფასება როგორც უძრავ, ისე მოძრავ ქონებაზე</b></h3> <p>თქვენი შეკვეთის მიღების შემდეგ, ექსპერტი დაგიკავშირდებათ თქვენ მიერ მითითებულ ელ. ფოსტის მისამართზე ან ტელეფონის ნომერზე დეტალების განსახილველად</p> <p><b>როგორც კი ექსპერტი დეტალებს განიხილავს, მომსახურების ფასი დადგინდება და შეფასება თანხის ჩარიცხვისთანავე დაიწყება</b> </p>",
             "hireBtn": "შეფასების შეკვეთა",
             "firstMenu": "<li>უძრავი ქონება</li> <li>მოძრავი ქონება</li> <li>ბიზნესი</li> <li>სხვა ტიპის ქონება</li>",
             "row100": {
@@ -56,12 +57,13 @@
             "content_3": "<h2>Business</h2> <p>Valuation of the company's total assets</p> <p>Valuation of a share of the company</p> <p>Valuation of goodwill</p> <p>Trademark valuation</p>"
         },
         "about": {
-            "mxw800p": "<h3>Who We Are</h3> <p><span><b>Consulting and Solutions Group LLC (CSG)</b></span> is an appraisal company that provides its clients with complete and effective appraisal services considering the Georgian business environment. CSG offers real estate and business (company share) valuation according to international standards. This service will be provided by a team of certified professionals who have many years of experience in this field.</p>",
+            "strings": ["Find out more about us", "Highly qualified staff", "World-class quality", "Uninterrupted contact with customers"],
+            "mxw800px": "<h3><span class='auto-input'></span></h3> <p><span><b>Consulting and Solutions Group LLC (CSG)</b></span> is an appraisal company that provides its clients with complete and effective appraisal services considering the Georgian business environment. CSG offers real estate and business (company share) valuation according to international standards. This service will be provided by a team of certified professionals who have many years of experience in this field.</p>",
             "box1": "<h2>2500++</h2> <h4>Projects</h4>",
             "box2": "<h2>1200++</h2> <h4>Happy clients</h4>"
         },
         "request": {
-            "mxw800p": "<h3><b>If you are interested, you can order an assessment of both immovable and movable property.</b></h3> <p><b>Following receipt of your order, an expert will contact you at the email address or phone number you provided to discuss the details.</p> <p><b>Once the expert discusses the details, a price for the service will be determined, and the valuation process will start as soon as the money is deposited.</b> </p>",
+            "mxw800px": "<h3><b>If you are interested, you can order an assessment of both immovable and movable property.</b></h3> <p><b>Following receipt of your order, an expert will contact you at the email address or phone number you provided to discuss the details.</p> <p><b>Once the expert discusses the details, a price for the service will be determined, and the valuation process will start as soon as the money is deposited.</b> </p>",
             "hireBtn": "Request valuation",
             "firstMenu": "<li>Real estate</li> <li>Movable property</li> <li>Business</li> <li>Valuation of other types of property</li>",
             "row100": {
@@ -98,12 +100,13 @@
             "content_3": "<h2>Бизнес</h2> <p>общие активы компании</p> <p>100% акций компании</p> <p>часть компании</p> <p>Оценка деловой репутации</p> <p>Оценка торговой марки</p>"
         },
         "about": {
-            "mxw800p": "<p><span><b>Consulting and Solutions Group LLC (CSG)</b></span>является оценочной компанией, которая предоставляет своим клиентам комплексные и эффективные оценочные услуги c учетом бизнес-среды Грузии CSG предлагает оценку недвижимости и бизнеса (долей компании) по международным стандартам. Данную услугу будет оказывать команда сертифицированных специалистов, имеющих многолетний опыт работы в данной сфере</p>",
+            "strings": ["Узнайте о нас больше", "Высококвалифицированный персонал", "Качество мирового уровня", "Бесперебойный контакт с клиентами"],
+            "mxw800px": "<h3><span class='auto-input'></span></h3> <p><span><b>Consulting and Solutions Group LLC (CSG)</b></span>является оценочной компанией, которая предоставляет своим клиентам комплексные и эффективные оценочные услуги c учетом бизнес-среды Грузии CSG предлагает оценку недвижимости и бизнеса (долей компании) по международным стандартам. Данную услугу будет оказывать команда сертифицированных специалистов, имеющих многолетний опыт работы в данной сфере</p>",
             "box1": "<h2>2500++</h2> <h4>Проекты</h4>",
             "box2": "<h2>1200++</h2> <h4>Счастливые клиенты</h4>"
         },
         "request": {
-            "mxw800p": "<h3><b>При заинтересованности вы можете заказать оценку как недвижимого, так и движимого имущества</b></h3> <p>После получения вашего заказа специалист свяжется с вами по указанному адресу электронной почты или номеру телефона для обсуждения деталей</p> <p><b>После того, как эксперт обсудит детали, будет определена цена за услугу, и процесс оценки начнется, как только деньги будут внесены</b> </p>",
+            "mxw800px": "<h3><b>При заинтересованности вы можете заказать оценку как недвижимого, так и движимого имущества</b></h3> <p>После получения вашего заказа специалист свяжется с вами по указанному адресу электронной почты или номеру телефона для обсуждения деталей</p> <p><b>После того, как эксперт обсудит детали, будет определена цена за услугу, и процесс оценки начнется, как только деньги будут внесены</b> </p>",
             "hireBtn": "Запросить услугу",
             "firstMenu": "<li>Недвижимость</li> <li>Движимое имущество</li> <li>Бизнес</li> <li>Оценка других видов имущества</li>",
             "row100": {

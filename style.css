@@ -104,6 +104,11 @@ header .num
     color: #000;
 }
 
+header .num a
+{
+    margin: 0 !important;
+}
+
 
 .lang
 .dropdown{
@@ -749,6 +754,7 @@ p{
 }
 
 /* ============== request End ============== */
+
 
 /* ============== Contact Start ============== */
 

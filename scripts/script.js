@@ -29,6 +29,8 @@ cancelBtn.forEach((cBtn) => {
   });
 });
 
+let auto_type_strings = ["გაიგეთ მეტი ჩვენზე", "მაღალ-კვალიფიციური პერსონალი", "საერთაშორისო დონის ხარისხი", "განუწყვეტლივი კავშირი კლიენტებთან"]
+
 const init_request_functionality = () => {
   const add_functionality_to_dropdowns = (dropdown) => {
     const select = dropdown.querySelector('.select');
@@ -215,6 +217,13 @@ const init_request_functionality = () => {
     }
     add_functionality_to_dropdowns(secondDropdown);
   }
+
+  typed = new Typed(".auto-input", {
+    strings: auto_type_strings,
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+  })
 };
 
 init_request_functionality();
@@ -255,7 +264,8 @@ function updateContent(translations) {
   $('#content-3').html(translations.services.content_3);
 
   // about
-  $('#mxw800px').html(translations.about.mxw800p);
+  auto_type_strings = translations.about.strings
+  $('#mxw800px').html(translations.about.mxw800px);
   $('#box1').html(translations.about.box1);
   $('#box2').html(translations.about.box2);
 
@@ -325,6 +335,7 @@ function updateContent(translations) {
 function updateLangAttribute(lang) {
   $('html').attr('lang', lang);
 }
+
 
 // By default, load the content in English
 // $(document).ready(function () {
