@@ -393,6 +393,11 @@ p{
     text-decoration: none;
     border-radius: 15px;
     color: #fff;
+    transition: .5s;
+}
+
+.btn:hover{
+    background: #008c8795;
 }
 
 .sec span,
@@ -968,6 +973,9 @@ p{
         font-size: 20px;
         padding-top: 20px;
     }
+    header.active .num{
+        margin: 25px 0;
+    }
     li.lang {
         display: flex;
         justify-content: center;
@@ -1021,32 +1029,32 @@ p{
     }
 
     #serv-title{
-        font-size: 25px;
+        font-size: 28px;
     }
 
-    .services .box{
-        min-width: 100px;
-        min-height: 100px;
+    /* .services .box{
+        min-width: 200px;
+        min-height: 200px;
         width: 150px;
         height: 200px;
         padding: 12px;
-    }
+    } */
 
     .services .box .iconBx {
         margin-top: 5px;
     }
 
-    .services .box .iconBx img {
+    /* .services .box .iconBx img {
         max-width: 30px;
         margin-bottom: 5px;
-    }
+    } */
 
     .services .box h2{
-        font-size: 13px;
+        font-size: 21px;
     }
 
     .services p {
-        font-size: 11px;
+        font-size: 18px;
     }
 
     .stats{
@@ -1088,16 +1096,16 @@ p{
     
     h3{
         font-size: 26px;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
 
     .about_section h3{
-        font-size: 22px;
+        font-size: 25px;
         height: 50px;
     }
 
     .about_section p{
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .statsBox h2 {
@@ -1108,9 +1116,9 @@ p{
         font-size: 22px;
     }
 
-    .request p{
+    /* .request p{
         font-size: 16px;
-    }
+    } */
 
     .request .img-box{
         display: none;
