@@ -4,7 +4,7 @@
             "nav_req": "შეფასების შეკვეთა",
             "nav_serv": "სერვისები",
             "nav_cont": "კონტაქტი",
-            "nav_num": "მობ: <span>+995 557 57 00 57</span>",
+            "nav_num": "მობ: <span>+995 511 457 052</span>",
             "selected_lang": "images/KA.png"
         },
         "services": {
@@ -47,7 +47,7 @@
             "nav_req": "request service",
             "nav_serv": "services",
             "nav_cont": "contact",
-            "nav_num": "Num: <span>+995 557 57 00 57</span>",
+            "nav_num": "Num: <span>+995 511 457 052</span>",
             "selected_lang": "images/UK.png"
         },
         "services": {
@@ -90,7 +90,7 @@
             "nav_req": "запросить услугу",
             "nav_serv": "услуги",
             "nav_cont": "контакт",
-            "nav_num": "номер: <span>+995 557 57 00 57</span>",
+            "nav_num": "номер: <span>+995 511 457 052</span>",
             "selected_lang": "images/RU.jpg"
         },
         "services": {
