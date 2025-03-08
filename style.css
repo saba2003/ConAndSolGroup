@@ -26,7 +26,7 @@ body{
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #4978ff;
+    background: rgb(73, 120, 255);
 }
 
 :root {
@@ -40,6 +40,8 @@ body::-webkit-scrollbar-thumb {
     --purple: #a82dd1;
     --blue: #4978ff;
     --orange: #ff8a00;
+    --silver: #C0BCB5;
+    --cardinal: #BA3B46;
 }
 
 /* ============== Navbar Start ============== */
@@ -234,7 +236,7 @@ header .num a
     width: 100%;
     height: 100%;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 22%);
-    background: linear-gradient(to right, var(--orange), #4976ffd3);
+    background: linear-gradient(to right, #4976ffd3, #4976ffd3);
 }
 .services_section{
     background: linear-gradient(to left, var(--gray1), var(--gray2));;
@@ -402,7 +404,7 @@ p{
 
 .sec span,
 .small_sec span{
-    color: var(--orange);
+    color: var(--blue);
 }
 
 .stats{
@@ -426,12 +428,12 @@ p{
 }
 
 .statsBox h2{
-    color: var(--orange);
+    color: var(--blue);
     font-size: 36px;
 }
 
 .statsBox h4{
-    color: var(--orange);
+    color: var(--blue);
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
@@ -781,7 +783,7 @@ p{
     bottom: 0;
     width: 100%; height: 100%;
     background: linear-gradient(to bottom, var(--gray2), var(--blue));
-    clip-path: circle(65% at center 15%);
+    /* clip-path: circle(65% at center 15%); */
 }
 
 .contact .mxw800p h3,
@@ -892,7 +894,7 @@ p{
     opacity: 0.5;
 }
 
-.copyright a{color: var(--purple);}
+.copyright a{color: var(--gray0);}
 
 .copyright {color: var(--gray6);}
 
@@ -1073,9 +1075,9 @@ p{
         width: 80%;
     }
 
-    .contact::before{
+    /* .contact::before{
         clip-path: circle(65% at center 22%);
-    }
+    } */
 
     .row100{
         flex-direction: column;

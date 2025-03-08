@@ -270,7 +270,7 @@ function updateContent(translations) {
   $('#box2').html(translations.about.box2);
 
   // request
-  $('#mxw800p').html(translations.request.mxw800p);
+  $('#mxw800p').html(translations.request.mxw800px);
   $('#hireBtn').text(translations.request.hireBtn);
   $('#firstMenu').html(translations.request.firstMenu);
 
