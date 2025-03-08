@@ -404,7 +404,7 @@ p{
 
 .sec span,
 .small_sec span{
-    color: var(--blue);
+    color: var(--orange);
 }
 
 .stats{
@@ -428,12 +428,12 @@ p{
 }
 
 .statsBox h2{
-    color: var(--blue);
+    color: var(--orange);
     font-size: 36px;
 }
 
 .statsBox h4{
-    color: var(--blue);
+    color: var(--orange);
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
