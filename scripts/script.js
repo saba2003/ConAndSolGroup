@@ -251,7 +251,6 @@ function updateContent(translations) {
   $('#nav-req').text(translations.header.nav_req);
   $('#nav-serv').text(translations.header.nav_serv);
   $('#nav-cont').text(translations.header.nav_cont);
-  $('#nav-num').html(translations.header.nav_num);
   $('#selected-lang').html(
     '<img src="' + translations.header.selected_lang + '">'
   );
